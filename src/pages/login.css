@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: whitesmoke; */
+}
+
+.Head {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 600px;
+  height: 10vh;
+  /* border-bottom: 1px solid #a7aeb5; */
+  padding-right: 32px;
+  background-color: #f8f8ff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background: #17869ed0;
+  height: 200px;
+  border-radius: 100px;
+  color: black;
+  margin-top: 140px;
+}
+
+.Now {
+  color: red;
+}
+
+.logo-text {
+  color: whitesmoke;
+  font-size: 40px;
+  background-color: transparent;
+}
+
+.main {
+  height: 80vh;
+  text-align: center;
+  background-image: url(../assets/backgroundlogin.avif);
+  /* border-bottom: 1px solid gray; */
+}
+
+.login {
+  margin-left: 0%;
+  width: 350px;
+  height: 350px;
+  border: 2px solid white;
+  opacity: 0.4;
+  border-radius: 8px;
+}
+
+.login-form input {
+  height: 40px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 32px;
+  color: gray;
+  font-size: 40px;
+}
+
+.button {
+  color: white;
+  font-size: 24px;
+  /* padding-block: 80px; */
+  width: 32%;
+  border: 2px solid black;
+  background-color: darkblue;
+}
+
+.texth2 {
+  color: green;
+}
+
+.texth1 {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 4rem;
+}
+.footerlogin {
+  height: 10vh;
+  background-color: #fa8072;
+  border-top: -10px;
+}
+
+.texth6 {
+  padding-top: 8px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.forgot {
+  padding-left: 16px;
+  display: flex;
+  cursor: pointer;
+  font-size: 24px;
+}
